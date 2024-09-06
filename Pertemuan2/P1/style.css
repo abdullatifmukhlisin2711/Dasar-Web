@@ -3,3 +3,20 @@ h2{
     font-family : Trebuchet Ms;
     test-align: align;
 }
+.kotak{
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+#kotak{
+    width: 400px;
+    color: #fff;
+    background: blue;
+    padding: 50px;
+}
+body{
+    background: url('bunga2.jpeg');
+    color: white;
+}
