@@ -1,7 +1,12 @@
+body{
+    background: url('../img/tree1.jpg'), url('../img/field.jpeg');
+    background-repeat: no-repeat, repeat;
+    color: white;
+}
 h2{
     color : orange;
     font-family : Trebuchet Ms;
-    test-align: align;
+    text-align: align;
 }
 .kotak{
     padding: 50px;
@@ -15,8 +20,4 @@ h2{
     color: #fff;
     background: blue;
     padding: 50px;
-}
-body{
-    background: url('bunga2.jpeg');
-    color: white;
 }
