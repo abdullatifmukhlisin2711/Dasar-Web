@@ -60,4 +60,22 @@ $rata_rata = $total_nilai / $jumlah_siswa;
 
 echo "Total nilai setelah mengabaikan nilai tertinggi dan terendah: ". $total_nilai . "\n";
 echo "Rata-rata nilai: " . $rata_rata;
+
+$hargaAwal = 120000;
+$diskon = 20;
+$jumlahDiskon = ($hargaAwal * $diskon) / 100;
+$haegaAkhir = $hargaAwal - $jumlahDiskon;
+
+echo "Harga setelah diskon: " . $haegaAkhir;
+
+
+
+$skorPemain = 600;
+if ($skorPemain > 500) {
+    $hadiah = "YA";
+} else {
+    $hadiah = "TIDAK";
+}
+echo "Total skor pemain adalah: " . $skorPemain . "\n";
+echo "Apakah pemain mendapatkan hadiah tambahan? " . $hadiah;
 ?>
