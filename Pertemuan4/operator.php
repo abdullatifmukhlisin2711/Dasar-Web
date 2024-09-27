@@ -48,4 +48,12 @@ echo "$hasilKali <br>";
 echo "$hasilBagi <br>";
 echo "$sisaBagi <br>";
 echo "$pangkat <br>";
+
+
+$totalKursi = 45;
+$kursiTerisi = 28;
+
+$kursiKosong = $totalKursi - $kursiTerisi;
+$persenKosong = ($kursiKosong / $totalKursi) * 100;
+echo "Persentase kursi yang masih kosong adalah: " . $persenKosong . "%";
 ?>
