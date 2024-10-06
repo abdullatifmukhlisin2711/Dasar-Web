@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3>Data Siswa</h3>
+        <link rel="stylesheet" type="text/css" href="Tugas1.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kelas</th>
+                <th>Alamat</th>
+            </tr>
+            <tr>
+                <td>Andi</td>
+                <td>18</td>
+                <td>10A</td>
+                <td>Malang</td>
+            </tr>
+            <tr>
+            <td>Siti</td>
+            <td>16</td>
+            <td>10B</td>
+            <td>Batu</td>
+             </tr>
+             <tr>
+                <td>Budi</td>
+                <td>15</td>
+                <td>10A</td>
+                <td>Dinoyo</td>
+                 </tr>
+                 <tr>
+                    <td>Anton</td>
+                    <td>25</td>
+                    <td>15A</td>
+                    <td>Dinoyo</td>
+                     </tr>
+        </table>
+        <script>
+            function menghitungUmur() {
+
+              var umur = document.querySelectorAll("table tr td:nth-child(2)");
+            
+
+              var sum = 0;
+              for (var i = 0; i < umur.length; i++) {
+                sum += parseInt(umur[i].textContent);
+              }
+            
+              var rataRataUmur = sum / umur.length;
+            
+              document.getElementById("rataRataUmur").textContent = "Rata Rata Umur: " + rataRataUmur;
+            }
+            </script>
+    </body>
+    
+</html>
