@@ -5,3 +5,4 @@ if(isset($nama)){
 }else{
     echo "Variabel 'nama' tidak ditemukan atau bernilai null.";
 }
+?>
