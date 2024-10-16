@@ -40,7 +40,7 @@
     $(document).ready(function(){
         $("#myForm").submit(function(e){
 
-            var formData = $("myForm".serialize();
+            var formData = $("myForm").serialize();
 
             $.ajax({
                 url: "proses_lanjut.php",
