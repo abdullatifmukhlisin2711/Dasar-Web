@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Tampilan Data</title>
+    <style>
+        table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Harga</th>
+            <th>Jumlah</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>5000000</td>
+            <td>1</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        </table>
+    <button>Delete</button>
+
+    <form>
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id">
+        <label for="harga">Harga:</label>
+        <input type="text" id="harga" name="harga">
+        <label for="jumlah">Jumlah:</label>
+        <input type="text" id="jumlah" name="jumlah">
+        <button type="submit">Tambah</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>Harga</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>5000000</td>
+            <td>1</td>
+        </tr>
+        </table>
+    <button>Ubah</button>
+</body>
+</html>
