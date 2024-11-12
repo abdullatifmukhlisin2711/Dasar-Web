@@ -1,7 +1,6 @@
-console.log("a")
 $(document).ready(function () {
     $("#update").submit(function (e) {
-        e.preventDefault();// untuk mencegah reload saat menekan tombol submit
+        e.preventDefault();
 
         var formData = $(this).serialize();
 
@@ -10,7 +9,7 @@ $(document).ready(function () {
                 url: "update.php",
                 type: "POST",
                 data: formData,
-                success: function (response) {
+                success: function () {
                     location.reload()
                 }
             });

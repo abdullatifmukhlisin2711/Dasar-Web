@@ -44,7 +44,7 @@ foreach($results as $result){
         <button id='btn-del'>Delete</button>
 
         <br><br><br>
-        <form id="FM" method="post" action="Input1.php" >
+        <form id="FM"  action="Input1.php" >
             <label for="id-mobil">Masukkan ID Mobil</label>
             <input type="number" min="1" id="id-mobil" name="Id_Kendaraan" >
             <br><br>
@@ -65,8 +65,9 @@ foreach($results as $result){
             <br><br><br>
             <input type="submit" value="masukkan" >
         </form>
+
         <br><br><br>
-        <form id="update" action="update.php" method="post">
+        <form id="update" action="update.php">
              <table border=2px style="border-collapse: collapse;">
                  <thead>
                      <tr>
